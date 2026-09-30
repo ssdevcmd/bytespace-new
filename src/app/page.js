@@ -1,4 +1,5 @@
 
+import CourseCard from "@/components/CourseCard";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import PartnerLogos from "@/components/PartnerLogos";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <PartnerLogos />
       <SkillsSection />
+      <CourseCard />
     </main>
     
   );
