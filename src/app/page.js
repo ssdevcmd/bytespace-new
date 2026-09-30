@@ -1,6 +1,7 @@
 
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import PartnerLogos from "@/components/PartnerLogos";
 import { Divide, Search } from "lucide-react";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <PartnerLogos />
     </main>
     
   );
