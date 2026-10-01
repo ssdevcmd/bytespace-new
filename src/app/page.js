@@ -1,4 +1,5 @@
 
+import CallToAction from "@/components/CallToAction";
 import CareerGrowth from "@/components/CareerGrowth";
 import CourseCard from "@/components/CourseCard";
 import CourseGrid from "@/components/CourseGrid";
@@ -21,6 +22,7 @@ export default function Home() {
       <CourseGrid />
       <CareerGrowth />
       <Creator />
+      <CallToAction />
     </main>
     
   );
