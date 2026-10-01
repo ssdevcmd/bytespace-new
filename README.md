@@ -6,9 +6,9 @@ The project is based on the provided ByteSpace design and focuses on creating a 
 
 ## 🔗 Live Demo
 
-**Live Website:** 
+**Live Website**:https://bytespace-new-topaz.vercel.app/ 
 
-**GitHub Repository:** 
+**GitHub Repository**:https://github.com/ssdevcmd/bytespace-new 
 ---
 
 ## ✨ Features
@@ -182,8 +182,6 @@ This makes the codebase easier to maintain and extend.
 
 The application is deployed using **Vercel**.
 
-After deployment, the live URL will be added to this README.
-
 ---
 
 ## 📌 Assessment
@@ -198,8 +196,8 @@ The implementation follows the provided design reference while focusing on respo
 
 **MD SOLAYMAN SANI**
 
-GitHub: 
+GitHub: https://github.com/ssdevcmd/bytespace-new
 
-Portfolio: 
+Portfolio: https://solayman-sani-portfolio.vercel.app/
 
-LinkedIn: 
+LinkedIn: https://www.linkedin.com/in/solayman-sani
