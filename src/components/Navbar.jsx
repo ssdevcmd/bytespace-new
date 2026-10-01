@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ShoppingCart, Menu, X, ShoppingBag } from "lucide-react";
+import Link from "next/link";
 
 const LINKS = [
   { label: "Home", href: "#top" },
@@ -23,22 +24,22 @@ export default function Navbar() {
 
         <nav aria-label="Main" className="hidden items-center gap-8 md:flex">
           {LINKS.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm font-medium text-ink/80 hover:text-brand">
+            <Link key={l.href} href={l.href} className="text-sm font-medium text-ink/80 hover:text-brand">
               {l.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <a href="#" className="text-sm font-semibold text-ink/80 hover:text-brand">
+          <Link href="/signin" className="text-sm font-semibold text-ink/80 hover:text-brand">
             Sign In
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="/signup"
             className="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-dark"
           >
             Join Us
-          </a>
+          </Link>
           <button aria-label="Cart" className="rounded-full p-2 text-ink/70 hover:bg-black/5 hover:text-brand">
             <ShoppingBag className="h-5 w-5" />
           </button>
@@ -70,12 +71,12 @@ export default function Navbar() {
               </li>
             ))}
             <li className="mt-2 flex gap-3 px-2">
-              <a href="#" className="flex-1 rounded-full border border-black/10 py-2.5 text-center text-sm font-semibold">
+              <Link href="/signin" className="flex-1 rounded-full border border-black/10 py-2.5 text-center text-sm font-semibold">
                 Sign In
-              </a>
-              <a href="#" className="flex-1 rounded-full bg-brand py-2.5 text-center text-sm font-semibold text-white">
+              </Link>
+              <Link href="/signup" className="flex-1 rounded-full bg-brand py-2.5 text-center text-sm font-semibold text-white">
                 Join Us
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
