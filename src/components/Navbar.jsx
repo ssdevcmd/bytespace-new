@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-black/5 bg-[#003be2] text-[#F5F5F6] container mx-auto p-2">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#top" className="flex items-center gap-2 text-2xl font-bold font-[Clash_Display]">
+        <a href="#top" className="flex items-center gap-2 text-2xl font-extrabold font-[Clash_Display]">
           <img src="/Vector.png" alt="ByteSpace Logo" className="h-8 w-auto" />
             
           ByteSpace

@@ -4,6 +4,7 @@ import CareerGrowth from "@/components/CareerGrowth";
 import CourseCard from "@/components/CourseCard";
 import CourseGrid from "@/components/CourseGrid";
 import Creator from "@/components/Creator";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import PartnerLogos from "@/components/PartnerLogos";
@@ -25,6 +26,7 @@ export default function Home() {
       <Creator />
       <CallToAction />
       <Testimonials />
+      <Footer />
     </main>
     
   );
