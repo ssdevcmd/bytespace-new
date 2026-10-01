@@ -35,7 +35,7 @@ export default function Hero() {
       <img
         src="/mask-group-3.png"
         alt="White Torus Ring"
-        className="absolute bottom-16 left-[-28rem] sm:left-[-8] w-36 sm:w-52 z-0 pointer-events-none"
+        className="absolute bottom-16 left-[-28rem] sm:left-[-8] w-36 sm:w-52 z-20 pointer-events-none"
       />
 
       {/* Top-Right Large Lime Cylinder */}
@@ -56,7 +56,7 @@ export default function Hero() {
       <img
         src="/mask-group-1.png"
         alt="White Spring Right"
-        className="absolute bottom-36 right-[-8rem] sm:right-2 w-24 sm:w-36 z-0 pointer-events-none"
+        className="absolute bottom-36 right-[-28rem] sm:right-14 w-24 sm:w-36 z-0 pointer-events-none"
       />
 
 
@@ -102,7 +102,7 @@ export default function Hero() {
         <div className="relative w-full max-w-5xl mx-auto flex justify-center items-end mt-4 min-h-[420px]">
 
           {/* Lime Backdrop Arch */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[650px] h-[325px] sm:w-[850px] sm:h-[375px] lg:w-[900px] lg:h-[400px] bg-[#D4FB20] rounded-t-full pointer-events-none z-0" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[650px] h-[325px] sm:w-[850px] sm:h-[375px] lg:w-[800px] lg:h-[400px] bg-[#D4FB20] rounded-t-full pointer-events-none z-0" />
 
           {/* Student Hero Photo */}
           <img
