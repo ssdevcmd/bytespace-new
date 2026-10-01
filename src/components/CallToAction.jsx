@@ -2,7 +2,7 @@ import React from 'react';
 
 const CallToAction = () => {
   return (
-    <section className="relative overflow-hidden bg-[#0042EC] py-20 lg:py-28 text-white">
+    <section className="relative overflow-hidden bg-[#0042EC] py-20 lg:py-28">
 
 
      {/* design images */}
