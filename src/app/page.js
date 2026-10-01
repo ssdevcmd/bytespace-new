@@ -1,5 +1,6 @@
 
 import CourseCard from "@/components/CourseCard";
+import CourseGrid from "@/components/CourseGrid";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import PartnerLogos from "@/components/PartnerLogos";
@@ -15,6 +16,7 @@ export default function Home() {
       <PartnerLogos />
       <SkillsSection />
       <CourseCard />
+      <CourseGrid />
     </main>
     
   );
