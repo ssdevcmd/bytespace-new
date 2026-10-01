@@ -1,4 +1,5 @@
 
+import CareerGrowth from "@/components/CareerGrowth";
 import CourseCard from "@/components/CourseCard";
 import CourseGrid from "@/components/CourseGrid";
 import Hero from "@/components/Hero";
@@ -17,6 +18,7 @@ export default function Home() {
       <SkillsSection />
       <CourseCard />
       <CourseGrid />
+      <CareerGrowth />
     </main>
     
   );
